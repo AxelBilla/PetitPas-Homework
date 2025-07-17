@@ -23,3 +23,5 @@ The "front" waits for a reply from the "back" then displays the user's infos (em
 <br>
 
 The "back" can only reply to requests coming from the "front" hosted on my server.
+
+Spent too much time trying to wrap my head around the Prisma documentation, so I skipped the CSS (was planning on reusing stuff I had already made for CaloricFool, since it already has a perfectly function signup/login page, so there's some fragments of unused CSS I copypasted but never implemented).
