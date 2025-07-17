@@ -1,0 +1,191 @@
+/*-------*/
+/* Fonts */
+/*------*/
+@font-face {
+    font-family: 'Iconic';
+    src: url('./fonts/iconic-b.ttf');
+}
+.f-iconic {
+    font-family: 'Iconic';
+}
+
+@font-face {
+    font-family: 'Idendidad';
+    src: url('./fonts/identidad.otf');
+}
+.f-idendidad {
+    font-family: 'Idendidad';
+}
+
+
+
+/*------------------*/
+/* Color Controller */  
+/*------------------*/
+:root {
+    --light: #ffffff;
+    --gray: #F1F0FA;
+    --midgray: #ccc;
+    --darkgray: #646464;
+    --dark: #2b2b2b;
+    --menu: #cfe0f7;
+    --border: #91b7edb1;
+    --content: #98bcec;
+    --main: #01A7C2;
+    --shade: #006989;
+    --txton: #2b2b2b;
+    --days: #2b2b2b;
+    --fadedtxt: #757575;
+    --fadedbg: #7575756c;
+    --button: #a6dafcf5;
+    --clearsky: #dff9ff73;
+    --bg1: #cee1f2;
+    --bg2: #a5c8e8; 
+    --bg3: #d1daf2;
+}
+
+
+
+/*-----------*/
+/*   Style   */
+/*-----------*/
+
+.hidden{
+    display: none !important;
+}
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    align-items: center;
+}
+
+#background{
+    display: flex;
+    flex-grow: 1;
+    background-image: linear-gradient(to right top, var(--bg1), var(--bg2), var(--bg3));
+    background-repeat: repeat;
+    min-width: 40000px;
+    min-height: 40000px;
+    margin-top: -20%;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    transform-origin: center center;
+}
+
+#inactive-bg{
+    min-width: 40000px;
+    min-height: 40000px;
+    margin-top: -20%;
+    position: fixed;
+    width: 110%;
+    height: 110%;
+    z-index: 3;
+    background-color: var(--fadedbg);
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 640px;
+    position: absolute;
+    z-index: 1;
+    .sign-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--menu);
+        min-width: 400px;
+        max-width: 500px;
+        max-height: 650px;
+        box-shadow: var(--border) 0px 2px 8px 0px, var(--border) 0px -2px 6px 0px inset;
+        border-radius: 25px;
+        overflow: hidden;
+        .sign-menu-title{
+            overflow: hidden;
+            h1{
+                color: var(--dark);
+                font-size: 6em;
+                margin-top: 12.5%;
+                margin-bottom: 12.5%;
+            };
+        };
+    };
+    .sign-menu-fields{
+        display: flex;
+        .sign-menu-fields-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 10%;
+            .sign-menu-fields-form-text{
+                background-color: var(--light);
+                border: none;
+                border-radius: 10px;
+                box-shadow: var(--border) 0px 2px 8px 0px, var(--border) 0px -1px 2px 0px inset;
+                color: var(--txton);
+                font-size: 1.5em;
+                width: 80%;
+                max-height: 50px;
+                text-align: center;
+                margin-top: 5%;
+                overflow: hidden;
+            };
+            .field{
+                border: none;
+                width: 100%;
+                height: 100%;
+            }
+            .sign-menu-fields-form-register{
+                color: var(--main);
+                font-size: 1.2em;
+                font-weight: bold;
+                background: none;
+                border: none;
+                padding: 3%;
+            };
+            .sign-menu-fields-form-button{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                text-align: center;
+                color: var(--dark);
+                font-size: 1em;
+                overflow: hidden;
+                padding-top: 4%  
+            };
+            .sign-menu-fields-form-submit{
+                background-color: var(--midgray);
+                border: none;
+                border-radius: 100px;
+                box-shadow: var(--border) 0px 2px 8px 0px, var(--border) 0px -2px 3px 0px inset;
+                width: 50%;
+                min-width: 100px;
+                max-height: 70px;
+                color: var(--fadedtxt);
+                font-size: 2em;
+                text-align: center;
+                overflow: hidden;
+                margin-top: 2%;
+                padding: 2%;
+            };
+        };
+    };
+}
