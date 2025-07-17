@@ -11,7 +11,7 @@ React Web App ("front") setup on my own server at the port 3000 (default).
 
 Wasn't asked to handle sign ups, so I only did logins.
 
-Whenever a user puts their Email + Name, the "back" checks the DB for both infos and returns a boolean to say whether the "front" should go to the home page or stay on the login page.
+Whenever a user puts their Email + Name, the "back" checks the DB for both infos and returns a boolean to say whether the "front" should go to the home page or stay on the login page. (user exists or not)
 
 Email is kept in localStorage (could be sessionStorage instead, but doesn't really matter here. Should be using a token, but I wasn't asked to).
 
