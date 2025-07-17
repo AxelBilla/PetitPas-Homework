@@ -3,6 +3,10 @@ Coding homework made to pass E-Petitpas's screening process (only had 4h to make
 
 [WEBSITE LINK](http://54.37.69.170:3000/)
 
+## TEST USERS
+1) email: "test@test.com"; name: "tester"
+2) email "jean@globe.com"; name: "jean globe"
+
 ## INFO
 
 Node/Express.js API ("back") setup on my own server at the port 999. <br>
