@@ -1,5 +1,5 @@
 # PetitPas-Homework
-Coding homework made to pass E-Petitpas's screening process (4h)
+Coding homework made to pass E-Petitpas's screening process (only had 4h to make this due to the unexpected addition to my schedule)
 
 [WEBSITE LINK](http://54.37.69.170:3000/)
 
