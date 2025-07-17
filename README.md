@@ -5,7 +5,7 @@ Coding homework made to pass E-Petitpas's screening process (4h)
 
 ## INFO
 
-Node/Express.js API ("back") setup on my own server at the port 999.<br>
+Node/Express.js API ("back") setup on my own server at the port 999. <br>
 React Web App ("front") setup on my own server at the port 3000 (default).
 <BR>
 
