@@ -11,6 +11,7 @@ export default function Login() {
           <input type='email' name='email' placeholder='EMAIL' id='login-field-email' className='sign-menu-fields-form-text f-idendidad' required /> 
           <input type='text' name='text' placeholder='NAME' id='login-field-name' className='sign-menu-fields-form-text f-idendidad' required />
           <input type='submit' value='LOGIN' id='login-btn' className='sign-menu-fields-form-submit f-iconic' onClick={loginSubmit}/>
+          <input type='button' value='SIGNUP' id='signup-btn' className='sign-menu-fields-form-submit f-iconic'/>
         </form>
       </div>
     </div>
